@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+   width: 100%;
+   height: 300px;
+   background: #24292E; 
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background: #24292E; 
+}
+.all-btn{
+    background: #FAFBFC;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background .3s;
+}
+.all-btn:hover{
+    background: #24292E;
+    color:#ecf0f1; 
+}
+.header__box{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search__form{
+    margin-right: 100px;
+}
+.search__input{
+    width: 350px;
+    height: 50px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+.search__button{
+    height: 50px;
+    width: 50px;
+    background: #FAFBFC;
+    color: #24292E;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 8px  8px 0 ;
+    transition: background .3s;
+}
+.search__button:hover{
+    background: #24292E;
+    color: #FAFBFC;
+}
+/* Карзина в header*/
+.cart{
+    font-weight: bold;
+    cursor: pointer;
+    color: #24292E;
+    width: 150px;
+    height: 50px;
+    background: #FAFBFC;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background .3s;
+    position: relative;
+}
+.cart:hover{
+    background: #24292E;
+    color: #FAFBFC;
+}
+.cart_product{
+    top: 65px;
+    left: 0;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    background: #FAFBFC;
+    overflow: auto;
+}
+/* Блок с товарами */
+.products{
+    display: flex;
+    justify-content: space-between;
+    color: #2d3436;
+    flex-wrap: wrap;
+}
+.products____product{
+    text-align: center;
+    margin: 15px;
+    width: 250px;
+    height: 300px;
+    background: #24292E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.products____image{
+    width: 100%;
+    height: 200px;
+    background: #FAFBFC;
+}
+.products____link{
+    color: #FAFBFC;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color .3s;
+}
+.products____link:hover{
+    color: #FAFBFC
+}
+
+.products____price{
+    color: #FAFBFC;
+}
+.products____btn{
+    width: 150px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px ;
+}
+
+
+/* Сумма всх товаров */
+.summ{
+    display: flex;
+    justify-content: flex-end;
+}
+.summ____products{
+
+    margin: 15px;
+    padding: 20px 40px;
+    text-align: center;
+    background: #81ecec;
+    color: #000000;
+    font-size: 30px;
+}
+
+.foods-item{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+
+
+
+
+.form_indent{
+    margin: 20px 0 5px 0 ;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+}
+.form_input{    
+    width: 410px;
+    padding: 10px 20px;
+    height: 40px;
+    border: 1px solid #b2bec3;
+    outline: none;
+    border-radius: 5px;
+}
+.form_textarea{
+    width: 410px;
+    height: 80px;
+    padding: 10px 20px;
+    border: 1px solid #b2bec3;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    margin: 0 0 20px 0;
+}
+.form_text_error{
+    margin: 20px 0 ;
+}
+.form_button{
+    width: 450px;
+    height: 60px;
+    background: #8e44ad;
+    color: #fff;
+    font-weight: 900;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: background .3s;
+    margin: 0 0 20px 0;
+}
+.form_button:hover{
+    background: #9b59b6;
+}
+.form_error{
+    background: #fab1a0;
+}
